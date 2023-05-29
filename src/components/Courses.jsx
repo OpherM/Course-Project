@@ -14,7 +14,7 @@ const Courses = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: false,
           dots: true
@@ -41,13 +41,18 @@ const Courses = () => {
   };
 
   return (
-    <div className='w-full bg-[#E9F8F3B2] py-24'>
-        <div className='md:max-w-[1390px] max-w-[600px] m-auto'>
-            <Slider {...settings}>
-              {courses.map(course => <Card course={course} />)}
+    <div className='w-full bg-[#E9F8F3B2] py-28'>
+      <div className='md:max-w-[1390px] max-w-[600px] m-auto'>
+        <h1 className='text-3xl py-3 font-bold'>Most popular <span className='text-[#20B486]'>Courses</span></h1>
+        <p className='py-2 text-lg text-gray-600'>Various versions have evolved over the years, sometimes by accident.</p>
+        <Slider {...settings}>
+          {courses.map((course, i) =>
+            <div key={i}>
+              <Card course={course} />
+            </div>)}
 
-            </Slider>
-        </div>
+        </Slider>
+      </div>
     </div>
   )
 }
