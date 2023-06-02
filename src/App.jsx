@@ -7,6 +7,7 @@ import Achievement from './components/Achievement';
 import Category from './components/Category';
 import Feedback from './components/Feedback';
 import Register from './components/Register';
+import Footer from './components/Footer';
 import './App.css'
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Category />
       <Feedback />
       <Register />
+      <Footer />
     </div>
   )
 }
