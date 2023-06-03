@@ -47,39 +47,40 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border'>
-                    <h2 className='text-xl font-semibold'>Explore</h2>
-                    <div className='py-7'>
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Course</p>
-                        <p>Blog</p>
-                        <p>Contact</p>
+                <div className='flex flex-col md:mx-auto'>
+                    <h2 className='text-2xl font-semibold'>Explore</h2>
+                    <div className='py-6 flex flex-col gap-5'>
+                        <p className='text-[#6D737A]'>Home</p>
+                        <p className='text-[#6D737A]'>About</p>
+                        <p className='text-[#6D737A]'>Course</p>
+                        <p className='text-[#6D737A]'>Blog</p>
+                        <p className='text-[#6D737A]'>Contact</p>
                     </div>
                 </div>
-                <div className='border'>
-                    <h2 className='text-xl font-semibold'>Explore</h2>
-                    <div className='py-7'>
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Course</p>
-                        <p>Blog</p>
-                        <p>Contact</p>
+                <div className='flex flex-col md:m-auto'>
+                    <h2 className='text-2xl font-semibold'>Category</h2>
+                    <div className='py-6 flex flex-col gap-5'>
+                        <p className='text-[#6D737A]'>Design</p>
+                        <p className='text-[#6D737A]'>Development</p>
+                        <p className='text-[#6D737A]'>Marketing</p>
+                        <p className='text-[#6D737A]'>Business</p>
+                        <p className='text-[#6D737A]'>Lifestyle</p>
+                        <p className='text-[#6D737A]'>Photography</p>
+                        <p className='text-[#6D737A]'>Music</p>
                     </div>
                 </div>
-                <div className='border'>
-                    <h1 className='md:leading-[72px] md:text-3xl text-3xl font-semibold text-[#20B486]'>Practice</h1>
-                    <h2>Contact Us</h2>
-                    <p>Call : +123 400 123</p>
-                    <p>Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                    <p>Email: example@mail.com</p>
-                    <div className='flex gap-2 border'>
-                        <div><TiSocialFacebook /></div>
-                        <div><BsDribbble /></div>
-                        <div><TfiLinkedin /></div>
-                        <div><BsInstagram /></div>
-                        <div><BsBehance /></div>
+                <div className=''>
+                    <h2 className='text-2xl font-semibold'>Subscribe</h2>
+                    <div className='py-6 flex flex-col gap-5'>
+                        <p className='text-[#6D737A]'>Lorem Ipsum has been them an industry printer took a galley make book.</p>
                     </div>
+                    <input
+                        type="email"
+                        placeholder='Email here'
+                        style={{ backgroundColor: '#F2F3F4' }}
+                        className='p-3 rounded-md w-full focus:outline-none'
+                    />
+                    <button className='bg-[#20B486] mt-5 px-8 py-3.5 rounded-md text-white font-bold'>Subscribe Now</button>
                 </div>
             </div>
         </div>
