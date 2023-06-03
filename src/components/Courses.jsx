@@ -42,7 +42,7 @@ const Courses = () => {
 
   return (
     <div className='w-full bg-[#E9F8F3B2] py-28'>
-      <div className='md:max-w-[1390px] max-w-[600px] m-auto'>
+      <div className='md:max-w-[1390px] max-w-[520px] m-auto'>
         <h1 className='text-3xl py-3 font-bold'>Most popular <span className='text-[#20B486]'>Courses</span></h1>
         <p className='py-2 text-lg text-gray-600'>Various versions have evolved over the years, sometimes by accident.</p>
         <Slider {...settings}>

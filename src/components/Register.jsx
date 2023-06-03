@@ -5,7 +5,7 @@ import { cta } from '../assets'
 const Register = () => {
     return (
         <div className='w-full bg-[#E9F8F3B2] py-24'>
-            <div className='md:max-w-[1390px] max-w-[600px] m-auto grid md:grid-cols-2 items-center gap-8'>
+            <div className='md:max-w-[1390px] max-w-[520px] m-auto grid md:grid-cols-2 items-center gap-8'>
                 <img className='w-[600px] mx-auto' src={cta} alt="" />
 
                 <div>

@@ -42,7 +42,7 @@ const Feedback = () => {
 
   return (
     <div className='w-full bg-white py-24'>
-      <div className='md:max-w-[1390px] max-w-[600px] m-auto'>
+      <div className='md:max-w-[1390px] max-w-[520px] m-auto'>
         <div className='flex flex-col justify-center'>
           <h1 className='md:leading-[72px] md:text-3xl text-3xl font-semibold'>Students <span className='text-[#20B486]'>Feedback</span></h1>
           <p className='text-lg text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
