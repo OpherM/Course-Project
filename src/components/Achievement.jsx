@@ -5,7 +5,7 @@ import { SlGraduation } from 'react-icons/sl'
 const Achievement = () => {
     return (
         <div className='w-full bg-white py-24'>
-            <div className='md:max-w-[1390px] max-w-[520px] m-auto grid md:grid-cols-2'>
+            <div className='md:max-w-[1390px] max-w-[510px] m-auto grid md:grid-cols-2'>
                 <div className='flex flex-col justify-center'>
                     <h1 className='md:leading-[72px] md:text-3xl text-3xl font-semibold'>Our <span className='text-[#20B486]'>Achievement</span></h1>
                     <p className='text-lg text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
@@ -61,7 +61,7 @@ const Achievement = () => {
                     </div>
                 </div>
 
-                <img className='m-auto md:order-last order-first' src={achievement} alt="" />
+                <img className='m-auto md:order-last order-first' src={achievement} />
             </div>
         </div>
     )

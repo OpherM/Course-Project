@@ -5,7 +5,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 const Hero = () => {
     return (
         <div className='w-full bg-white py-24'>
-            <div className='md:max-w-[1390px] max-w-[520px] m-auto grid md:grid-cols-2'>
+            <div className='md:max-w-[1390px] max-w-[510px] m-auto grid md:grid-cols-2'>
                 <div className='flex flex-col justify-start gap-4'>
                     <p className='py-2 text-2xl text-[#20B486] font-medium'>START TO SUCCESS</p>
                     <h1 className='md:leading-[72px] py-2 md:text-5xl text-5xl font-semibold'>Access To <span className='text-[#20B486]'>5000+</span> Courses from <span className='text-[#20B486]'>300</span> Instructors & Institutions

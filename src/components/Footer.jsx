@@ -7,7 +7,7 @@ import { TfiLinkedin } from 'react-icons/tfi'
 const Footer = () => {
     return (
         <div className='w-full bg-white py-24'>
-            <div className='md:max-w-[1390px] max-w-[520px] m-auto grid md:grid-cols-4 gap-10'>
+            <div className='md:max-w-[1390px] max-w-[510px] m-auto grid md:grid-cols-4 gap-10'>
                 <div className=''>
                     <h1 className='md:text-4xl text-4xl font-semibold text-[#20B486]'>Practice</h1>
                     <h2 className='text-2xl font-semibold pt-6'>Contact Us</h2>

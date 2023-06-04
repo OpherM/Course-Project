@@ -11,11 +11,11 @@ import { GiTeacher } from 'react-icons/gi'
 const Category = () => {
     return (
         <div className='w-full bg-[#F0FBF7] py-32'>
-            <div className='md:max-w-[1390px] max-w-[570px] m-auto'>
+            <div className='md:max-w-[1390px] max-w-[480px] m-auto'>
                 <div className='flex flex-col justify-center'>
                     <h1 className='md:leading-[72px] md:text-3xl text-3xl font-semibold'>Most <span className='text-[#20B486]'>Popular Categories</span></h1>
                     <p className='text-lg text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
-                    <div className='grid lg:grid-cols-4 grid-cols-2 gap-4 pt-12'>
+                    <div className='grid lg:grid-cols-4 grid-cols-2 gap-3 pt-12'>
                         <CategoryCard
                             icons={<BsVectorPen size={30} />}
                             title={'Design'}
