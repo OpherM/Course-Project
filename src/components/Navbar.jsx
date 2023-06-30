@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { logo, lock, hamburgerMenu, close } from "../assets/index";
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="md:hidden " onClick={handleClick}>
+        <div className="md:hidden absolute right-4 " onClick={handleClick}>
           <img src={toggle ? close : hamburgerMenu} alt="Toggle Icon" />
         </div>
       </div>
