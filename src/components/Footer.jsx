@@ -17,7 +17,7 @@ const Footer = () => {
             feugiat auctor felis.
           </p>
           <p>Email: example@mail.com</p>
-          <div className="flex gap-3 py-6">
+          <div className="flex flex-wrap gap-3 py-6">
             <div className="bg-[#E9F8F3] p-3 rounded-xl cursor-pointer">
               <TiSocialFacebook style={{ color: "#4DC39E" }} size={25} />
             </div>

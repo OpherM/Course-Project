@@ -16,8 +16,8 @@ const Companies = () => {
           Leading companies all use the same courses to help employees keep
           their skills fresh.
         </p>
-        <div className="flex flex-row flex-wrap gap-8 py-[12px]">
-          <div >
+        <div className="grid xl:grid-cols-4 grid-cols-2 gap-2 sm:gap-8 py-[12px]">
+          <div>
             <img className="w-full" src={companyLogo1} alt="" />
           </div>
           <div>

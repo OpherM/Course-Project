@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full">
       <Navbar />
       <Hero />
       <Companies />

@@ -17,7 +17,7 @@ const Achievement = () => {
               <SlGraduation size={30} style={{ color: "#1A906B" }} />
             </div>
             <div className="px-2 md:px-4">
-              <h1 className="font-semibold text-xl">300</h1>
+              <h1 className="font-semibold text-md">300</h1>
               <p className="text-[#6D737A]">Instructor</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Achievement = () => {
               <SlGraduation size={30} style={{ color: "#FFC27A" }} />
             </div>
             <div className="px-2 md:px-4">
-              <h1 className="font-semibold text-xl">10,000+</h1>
+              <h1 className="font-semibold text-md">10,000+</h1>
               <p className="text-[#6D737A]">Video</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Achievement = () => {
               <SlGraduation size={30} style={{ color: "#ED4459" }} />
             </div>
             <div className="px-2 md:px-4">
-              <h1 className="font-semibold text-xl">20,000+</h1>
+              <h1 className="font-semibold text-md">20,000+</h1>
               <p className="text-[#6D737A]">Student</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Achievement = () => {
               <SlGraduation size={30} style={{ color: "#0075FD" }} />
             </div>
             <div className="px-2 md:px-4">
-              <h1 className="font-semibold text-xl">1,000,000+</h1>
+              <h1 className="font-semibold text-md">1,000,000+</h1>
               <p className="text-[#6D737A]">Users</p>
             </div>
           </div>
