@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid xl:grid-cols-3 grid-cols-2">
+        <div className="w-full grid xl:grid-cols-3 grid-cols-2">
           <div className="flex flex-col md:mx-auto">
             <h2 className="text-2xl font-semibold">Explore</h2>
             <div className="py-6 flex flex-col gap-5">
@@ -58,7 +58,7 @@ const Footer = () => {
               <p className="text-[#6D737A]">Music</p>
             </div>
           </div>
-          <div className="">
+          <div className="flex w-full flex-col md:m-auto">
             <h2 className="text-2xl font-semibold">Subscribe</h2>
             <div className="py-6 flex flex-col gap-5">
               <p className="text-[#6D737A]">
@@ -66,15 +66,20 @@ const Footer = () => {
                 book.
               </p>
             </div>
-            <input
+            <div>
+              <input
               type="email"
               placeholder="Email here"
               style={{ backgroundColor: "#F2F3F4" }}
               className="p-3 rounded-md w-full focus:outline-none"
-            />
-            <button className="bg-[#20B486] mt-5 px-8 py-3.5 rounded-md text-white font-bold">
+            />  
+            </div>
+            <div>
+             <button className="bg-[#20B486] mt-5 px-8 py-3.5 rounded-md text-white font-bold">
               Subscribe Now
-            </button>
+            </button>   
+            </div>
+            
           </div>
         </div>
       </div>
