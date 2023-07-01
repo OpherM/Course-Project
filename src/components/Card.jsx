@@ -1,6 +1,4 @@
-import React from 'react';
 import { StarRating } from './StarRating';
-import { blogImg1 } from '../assets';
 
 const Card = ({course}) => {
   return (

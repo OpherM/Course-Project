@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Companies from './components/Companies';
@@ -8,11 +7,10 @@ import Category from './components/Category';
 import Feedback from './components/Feedback';
 import Register from './components/Register';
 import Footer from './components/Footer';
-import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <Hero />
       <Companies />
