@@ -1,6 +1,5 @@
-import React from 'react'
 import CategoryCard from './CategoryCard'
-import { BsVectorPen, BsArrowUpRight, BsFiletypeHtml, BsCamera, BsDatabase, BsBriefcase } from 'react-icons/bs'
+import { BsVectorPen, BsFiletypeHtml, BsCamera, BsDatabase, BsBriefcase } from 'react-icons/bs'
 import { TbMicrophone2, TbHeartbeat } from 'react-icons/tb'
 import { WiSunrise } from 'react-icons/wi'
 import { MdMusicNote } from 'react-icons/md'
@@ -10,12 +9,12 @@ import { GiTeacher } from 'react-icons/gi'
 
 const Category = () => {
     return (
-        <div className='w-full bg-[#F0FBF7] py-32'>
-            <div className='md:max-w-[1390px] max-w-[480px] m-auto'>
+        <div className='w-full px-4 bg-[#F0FBF7] py-14'>
+
                 <div className='flex flex-col justify-center'>
                     <h1 className='md:leading-[72px] md:text-3xl text-3xl font-semibold'>Most <span className='text-[#20B486]'>Popular Categories</span></h1>
                     <p className='text-lg text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
-                    <div className='grid lg:grid-cols-4 grid-cols-2 gap-3 pt-12'>
+                    <div className='grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3 pt-12'>
                         <CategoryCard
                             icons={<BsVectorPen size={30} />}
                             title={'Design'}
@@ -69,7 +68,7 @@ const Category = () => {
 
                     </div>
                 </div>
-            </div>
+
         </div>
     )
 }
